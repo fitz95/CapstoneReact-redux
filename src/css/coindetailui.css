@@ -1,0 +1,12 @@
+.coindetaildiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.subcoindetaildiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 1rem;
+}
