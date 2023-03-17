@@ -228,7 +228,7 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like this project send me an email fitzgeraldnsong@gmail.com
+If you like this project send me an email fitzgeraldnsong@gmail.com or write an issue
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
