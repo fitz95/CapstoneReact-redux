@@ -15,54 +15,68 @@ function CoinDetailUi({
   return (
     <div className="coindetail">
       <div className="coindetaildiv">
-        <h1 className="name">Cuurent Price</h1>
+        <h1 className="name">Current Price</h1>
         <div className="subcoindetaildiv">
+          {currentPrice && (
           <h1 className="name">
             {currentPrice}
             $
           </h1>
+          )}
           <BiRightArrowCircle className="icon" />
         </div>
       </div>
       <div className="coindetaildiv">
         <h1 className="name">All Time High</h1>
         <div className="subcoindetaildiv">
-          <h1 className="name">{Alltimehigh}</h1>
+          {Alltimehigh && (
+            <h1 className="name">{Alltimehigh}</h1>
+          )}
           <BiRightArrowCircle className="icon" />
         </div>
       </div>
       <div className="coindetaildiv">
         <h1 className="name">All Time Low</h1>
         <div className="subcoindetaildiv">
-          <h1 className="name">{Alltimelow}</h1>
+          {Alltimelow && (
+            <h1 className="name">{Alltimelow}</h1>
+          )}
           <BiRightArrowCircle className="icon" />
         </div>
       </div>
       <div className="coindetaildiv">
-        <h1 className="name">All Time Low</h1>
+        <h1 className="name">Fully Diluted Evaluation</h1>
         <div className="subcoindetaildiv">
-          <h1 className="name">{fullydillutedvaluation}</h1>
+          {fullydillutedvaluation && (
+            <h1 className="name">{fullydillutedvaluation}</h1>
+          )}
           <BiRightArrowCircle className="icon" />
         </div>
       </div>
       <div className="coindetaildiv">
         <h1 className="name">Market Cap</h1>
         <div className="subcoindetaildiv">
-          <h1 className="name">{marketcap}</h1>
+          {marketcap && (
+            <h1 className="name">{marketcap}</h1>
+          )}
           <BiRightArrowCircle className="icon" />
         </div>
       </div>
       <div className="coindetaildiv">
         <h1 className="name">Price Change Per Year</h1>
         <div className="subcoindetaildiv">
-          <h1 className="name">{pricechangepercentageyearly}</h1>
+          {pricechangepercentageyearly && (
+            <h1 className="name">{pricechangepercentageyearly}</h1>
+          )}
           <BiRightArrowCircle className="icon" />
         </div>
       </div>
       <div className="coindetaildiv">
         <h1 className="name">Total Volume</h1>
         <div className="subcoindetaildiv">
-          <h1 className="name">{totalvolume}</h1>
+          {totalvolume && (
+            <h1 className="name">{totalvolume}</h1>
+          )}
           <BiRightArrowCircle className="icon" />
         </div>
       </div>
