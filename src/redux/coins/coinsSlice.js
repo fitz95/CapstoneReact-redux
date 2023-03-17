@@ -14,6 +14,12 @@ const coinsSlice = createSlice({
     list: [],
     isFectching: false,
   },
+  reducers: {
+    coinsFilter: (state, action) => {
+      const number = action.payload;
+      state.list = state.list.filter((item) => item.current_price > number);
+    },
+  },
   extraReducers: (builder) => {
     builder
       .addCase(fetchCoins.fulfilled, (state, action) => ({
@@ -28,4 +34,5 @@ const coinsSlice = createSlice({
   },
 });
 
+export const { coinsFilter } = coinsSlice.actions;
 export default coinsSlice.reducer;

@@ -8,7 +8,10 @@ function CoinHeader() {
       <img alt="cryptocurrencies" src={coindetail.image.large} className="imgheader" />
       <div className="subdiv">
         <h1 className="headerh1">{coindetail.name}</h1>
-        <p className="headerh2">{coindetail.market_data.current_price.usd}</p>
+        <p className="headerh2">
+          {coindetail.market_data.current_price.usd}
+          $
+        </p>
       </div>
     </div>
   );

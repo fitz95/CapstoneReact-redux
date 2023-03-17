@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar renders correctly 1`] = `
+<header
+  className="header"
+>
+  <a
+    aria-current="page"
+    className="icondiv active"
+    href="/"
+    onClick={[Function]}
+  >
+    <svg
+      className="icon2"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M11.67 3.87L9.9 2.1 0 12l9.9 9.9 1.77-1.77L3.54 12z"
+      />
+    </svg>
+  </a>
+  <span
+    className="navspan"
+  >
+    CRYPTO SAGE
+  </span>
+</header>
+`;

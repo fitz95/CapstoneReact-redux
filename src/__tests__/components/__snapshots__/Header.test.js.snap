@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RocketsLists renders correctly for reserved state 1`] = `
+<div
+  className="headerdiv"
+>
+  <img
+    alt="cryptocurrencies"
+    className="imgheader"
+    src="pngegg.png"
+  />
+  <div
+    className="subdiv"
+  >
+    <h1
+      className="headerh1"
+    >
+      CRYPTO MARKET VALUE
+    </h1>
+    <p
+      className="headerh2"
+    >
+      100 coins
+    </p>
+  </div>
+</div>
+`;

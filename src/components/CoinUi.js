@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 import '../css/coinui.css';
 
 function CoinUi({
-  name, picture, id, currentPrice,
+  picture, id, currentPrice,
 }) {
   const dispatch = useDispatch();
   const handleClick = () => {
@@ -20,15 +20,16 @@ function CoinUi({
           <BiRightArrowCircle className="icon" onClick={handleClick} />
         </NavLink>
         <img alt="coin" src={picture} className="img" />
-        <h1>{name}</h1>
         <h1 className="name">{id}</h1>
-        <h1 className="name">{currentPrice}</h1>
+        <h1 className="name">
+          {currentPrice }
+          $
+        </h1>
       </div>
     </div>
   );
 }
 CoinUi.propTypes = {
-  name: PropTypes.string.isRequired,
   picture: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
   currentPrice: PropTypes.number.isRequired,

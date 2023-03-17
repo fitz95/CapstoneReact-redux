@@ -17,7 +17,10 @@ function CoinDetailUi({
       <div className="coindetaildiv">
         <h1 className="name">Cuurent Price</h1>
         <div className="subcoindetaildiv">
-          <h1 className="name">{currentPrice}</h1>
+          <h1 className="name">
+            {currentPrice}
+            $
+          </h1>
           <BiRightArrowCircle className="icon" />
         </div>
       </div>

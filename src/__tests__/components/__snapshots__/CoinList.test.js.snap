@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RocketsLists renders correctly for reserved state 1`] = `
+<div
+  className="coin-div"
+>
+  <div
+    className="coinsheading"
+  >
+    <h2>
+      Crypto Market Prices
+    </h2>
+  </div>
+  <div
+    className="coinsdiv"
+  />
+</div>
+`;
