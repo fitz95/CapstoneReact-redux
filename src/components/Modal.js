@@ -5,14 +5,13 @@ import PropTypes from 'prop-types';
 import styles from 'src/css/modal.module.css';
 import { RiCloseLine } from 'react-icons/ri';
 import { useDispatch } from 'react-redux';
-import { coinsFilter, fetchCoins } from 'src/redux/coins/coinsSlice';
+import { coinsFilter } from 'src/redux/coins/coinsSlice';
 
 function Modal({ setIsOpen }) {
   const dispatch = useDispatch();
   const handleClick = (e) => {
     e.preventDefault();
     const target = e.currentTarget.id;
-    dispatch(fetchCoins());
     dispatch(coinsFilter(target));
     setIsOpen(false);
   };
