@@ -19,12 +19,16 @@ function CoinUi({
         <NavLink to="/coindetails">
           <BiRightArrowCircle className="icon" onClick={handleClick} />
         </NavLink>
-        <img alt="coin" src={picture} className="img" />
+        {picture && (
+          <img alt="coin" src={picture} className="img" />
+        )}
         <h1 className="name">{id}</h1>
-        <h1 className="name">
-          {currentPrice }
-          $
-        </h1>
+        {currentPrice && (
+          <h1 className="name">
+            {currentPrice}
+            $
+          </h1>
+        )}
       </div>
     </div>
   );

@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from 'src/css/modal.module.css';
@@ -15,9 +13,21 @@ function Modal({ setIsOpen }) {
     dispatch(coinsFilter(target));
     setIsOpen(false);
   };
+  const handleClickClose = ({ code }) => {
+    if (code === 'Escape') {
+      setIsOpen(false);
+    }
+  };
   return (
     <>
-      <div className={styles.darkBG} onClick={() => setIsOpen(false)} />
+      <div
+        className={styles.darkBG}
+        onClick={() => setIsOpen(false)}
+        onKeyDown={handleClickClose}
+        role="button"
+        aria-label="closeModal"
+        tabIndex={0}
+      />
       <div className={styles.centered}>
         <div className={styles.modal}>
           <div className={styles.modalHeader}>

@@ -12,7 +12,7 @@ const coinsSlice = createSlice({
   name: 'coins',
   initialState: {
     list: [],
-    isFectching: false,
+    isFetching: false,
   },
   reducers: {
     coinsFilter: (state, action) => {
@@ -24,12 +24,12 @@ const coinsSlice = createSlice({
     builder
       .addCase(fetchCoins.fulfilled, (state, action) => ({
         ...state,
-        isFectching: false,
+        isFetching: false,
         list: action.payload,
       }))
       .addCase(fetchCoins.pending, (state) => ({
         ...state,
-        isFectching: true,
+        isFetching: true,
       }));
   },
 });

@@ -10,16 +10,11 @@ exports[`RocketsLists renders correctly for reserved state 1`] = `
     <h1
       className="name"
     >
-      Cuurent Price
+      Current Price
     </h1>
     <div
       className="subcoindetaildiv"
     >
-      <h1
-        className="name"
-      >
-        $
-      </h1>
       <svg
         className="icon"
         fill="currentColor"
@@ -55,9 +50,6 @@ exports[`RocketsLists renders correctly for reserved state 1`] = `
     <div
       className="subcoindetaildiv"
     >
-      <h1
-        className="name"
-      />
       <svg
         className="icon"
         fill="currentColor"
@@ -93,9 +85,6 @@ exports[`RocketsLists renders correctly for reserved state 1`] = `
     <div
       className="subcoindetaildiv"
     >
-      <h1
-        className="name"
-      />
       <svg
         className="icon"
         fill="currentColor"
@@ -126,14 +115,11 @@ exports[`RocketsLists renders correctly for reserved state 1`] = `
     <h1
       className="name"
     >
-      All Time Low
+      Fully Diluted Evaluation
     </h1>
     <div
       className="subcoindetaildiv"
     >
-      <h1
-        className="name"
-      />
       <svg
         className="icon"
         fill="currentColor"
@@ -169,9 +155,6 @@ exports[`RocketsLists renders correctly for reserved state 1`] = `
     <div
       className="subcoindetaildiv"
     >
-      <h1
-        className="name"
-      />
       <svg
         className="icon"
         fill="currentColor"
@@ -207,9 +190,6 @@ exports[`RocketsLists renders correctly for reserved state 1`] = `
     <div
       className="subcoindetaildiv"
     >
-      <h1
-        className="name"
-      />
       <svg
         className="icon"
         fill="currentColor"
@@ -245,9 +225,6 @@ exports[`RocketsLists renders correctly for reserved state 1`] = `
     <div
       className="subcoindetaildiv"
     >
-      <h1
-        className="name"
-      />
       <svg
         className="icon"
         fill="currentColor"

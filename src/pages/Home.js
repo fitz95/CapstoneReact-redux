@@ -1,6 +1,5 @@
-// import React from 'react';
 import { useDispatch } from 'react-redux';
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { fetchCoins } from 'src/redux/coins/coinsSlice';
 import { fetchCoinDetails } from 'src/redux/coindetails/coinDetailsSlice';
 import CoinList from 'src/components/CoinList';
