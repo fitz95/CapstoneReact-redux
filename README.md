@@ -83,9 +83,9 @@ I created this at part of the projects in my Microverse Journey
 </details>
 
 <details>
-<summary>Database</summary>
+  <summary>Data</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">API</a></li>
+    <li><a href="https://expressjs.com/">API</a></li>
   </ul>
 </details>
 
