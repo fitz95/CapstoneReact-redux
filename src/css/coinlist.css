@@ -1,22 +1,23 @@
 .coinsdiv {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-block: 1rem;
-    /* width: min(95%, 70rem); */
-    margin-inline: auto;
-    height: 10vh;
-    cursor: pointer;
-    background: linear-gradient(90deg, rgba(100,174,186,1) 0%, rgba(122,172,181,1) 100%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-block: 1rem;
+
+  /* width: min(95%, 70rem); */
+  margin-inline: auto;
+  height: 10vh;
+  cursor: pointer;
+  background: linear-gradient(90deg, rgba(100, 174, 186, 1) 0%, rgba(122, 172, 181, 1) 100%);
 }
 
-.coin-div{
-    background: linear-gradient(90deg, rgba(100,174,186,1) 0%, rgba(122,172,181,1) 100%);
-    margin-top: -0.8rem;
-    font-size: 10px;
+.coin-div {
+  background: linear-gradient(90deg, rgba(100, 174, 186, 1) 0%, rgba(122, 172, 181, 1) 100%);
+  margin-top: -0.8rem;
+  font-size: 10px;
 }
 
 .coinsheading {
-    padding-left: 1rem;
-    padding-top: 0.5rem;
-    color: antiquewhite;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  color: antiquewhite;
 }

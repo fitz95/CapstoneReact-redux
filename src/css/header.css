@@ -1,31 +1,31 @@
 .headerdiv {
-    display: flex;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
-    background: rgb(76,161,175);
-    background: linear-gradient(90deg, rgba(76,161,175,1) 0%, rgba(196,224,229,1) 100%);
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  background: rgb(76, 161, 175);
+  background: linear-gradient(90deg, rgba(76, 161, 175, 1) 0%, rgba(196, 224, 229, 1) 100%);
 }
 
 .imgheader {
-    width: 30%;
+  width: 30%;
 }
 
 .subdiv {
-    margin: auto;
+  margin: auto;
 }
 
 .headerh1 {
-    font-weight: 800;
-    font-size:14px;
-    line-height: 5px;
-    color: aliceblue;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 5px;
+  color: aliceblue;
 }
 
 .headerh2 {
-    font-weight: 700;
-    font-size:12px;
-    line-height: 1px;
-    color: aliceblue;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1px;
+  color: aliceblue;
 }
